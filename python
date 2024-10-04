@@ -10,8 +10,10 @@ num2 = float(input("Enter the second number: "))
 # Get the third number from the user
 num3 = float(input("Enter the third number: "))
 
+num4 =float(input("Enter the fourth number: "))
+
 # Calculate the sum
-sum = num1 + num2
+sum = num1 + num2 + num3 + num4
 
 # Display the result
-print(f"The sum of {num1} and {num2} and {num3} is: {sum}")
+print(f"The sum of {num1} and {num2} and {num3} and {num4} is: {sum}")
